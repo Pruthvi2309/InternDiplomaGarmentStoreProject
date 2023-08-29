@@ -1,0 +1,17 @@
+.main{
+    margin-top: 20rem;
+    justify-content: center;
+}
+
+
+.panel-body{
+    padding: 80px;
+    width: 100%;
+    height: 100%;
+
+}
+.panel panel-default{
+    width: 200%;
+    height: 200%;
+
+}
