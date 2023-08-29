@@ -1,0 +1,113 @@
+.product-page-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .product-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .product-image {
+    position: relative;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #icons-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .product-rating {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .product-rating i {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+  
+  .filled {
+    color: gold;
+  }
+  
+  .unfilled {
+    color: #ccc;
+  }
+  
+  .product-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .product-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .size-radio-buttons,
+  .color-radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .size-radio-buttons label,
+  .color-radio-buttons label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .size-radio-buttons input[type="radio"],
+  .color-radio-buttons input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .product-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  hr{
+     border: 0.4 solid gray;
+  }
